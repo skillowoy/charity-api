@@ -32,9 +32,9 @@ cd charity-api
 npm install
 
 **3. Налаштування бази даних:**
--Запустіть локальний сервер MySQL.
--Імпортуйте SQL-дамп бази даних (таблиці donors, projects, donations).
--Переконайтеся, що облікові дані в server.js відповідають вашим локальним налаштуванням (user: 'root', password: '').
+- Запустіть локальний сервер MySQL.
+- Імпортуйте SQL-дамп бази даних (таблиці donors, projects, donations).
+- Переконайтеся, що облікові дані в server.js відповідають вашим локальним налаштуванням (user: 'root', password: '').
 
 **4. Запуск сервера:**
 node server.js
@@ -43,13 +43,13 @@ node server.js
 ## 📡 API Endpoints (Приклади)
 
 **Донори (Donors)**
--GET /donors — отримати список усіх донорів.
--POST /donors — додати нового донора.
-    -Body (JSON): { "first_name": "Іван", "last_name": "Франко", "email": "ivan@email.com", "phone": "+380990001122" }
--PUT /donors/:id — оновити дані донора за його ID.
--DELETE /donors/:id — видалити донора з бази.
+* GET /donors — отримати список усіх донорів.
+* *POST /donors — додати нового донора.
+    - Body (JSON): { "first_name": "Іван", "last_name": "Франко", "email": "ivan@email.com", "phone": "+380990001122" }
+* PUT /donors/:id — оновити дані донора за його ID.
+* DELETE /donors/:id — видалити донора з бази.
 
 **Проєкти (Projects)**
--GET /projects — отримати список усіх благодійних проєктів.
+* GET /projects — отримати список усіх благодійних проєктів.
 
 Розробник: Тичинський О.С. (Група КІ-201)
