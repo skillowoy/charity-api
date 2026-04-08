@@ -44,7 +44,7 @@ node server.js
 
 **Донори (Donors)**
 * GET /donors — отримати список усіх донорів.
-* *POST /donors — додати нового донора.
+* POST /donors — додати нового донора.
     - Body (JSON): { "first_name": "Іван", "last_name": "Франко", "email": "ivan@email.com", "phone": "+380990001122" }
 * PUT /donors/:id — оновити дані донора за його ID.
 * DELETE /donors/:id — видалити донора з бази.
